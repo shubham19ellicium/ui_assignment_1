@@ -6,7 +6,8 @@
 
 
 .new-header{
-    height: 700px;
+    height: 100vh;
+    min-height: 600px;
     background-image: url('../images/bg-tablet-pattern.png');
     background-repeat: no-repeat;
     background-size: 550px 550px;
