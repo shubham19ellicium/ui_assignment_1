@@ -23,14 +23,14 @@
 .container-01 {
     display: grid;
     grid-template-columns: 80px 1fr;
-    gap: 16px;
+    gap: 8px;
     align-items: center;
 }
 
 .container-02 {
     display: grid;
     grid-template-columns: 80px 1fr;
-    gap: 16px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -42,6 +42,9 @@
     color: #555;
 }
 
+.info-grid-block{
+    margin: 0px 0px 32px 0px;
+}
 
 .tablet{
     position: absolute;
@@ -263,7 +266,7 @@ body{
 .num-block{
     padding: 4px 0px;
     border-radius: 16px;
-    background-color: rgb(224, 122, 5);
+    background-color: #ff7700;
     color: white;
     height: fit-content;
     margin: 0px 16px;
@@ -318,7 +321,7 @@ body{
 }
 
 .review-card{
-    background-color: rgb(255 248 248);
+    background-color: rgb(250 250 250);
     height: 180px;
     width: 400px;
     margin: 54px 16px;
@@ -406,7 +409,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin: 0px 32px;
+    /* margin: 0px 32px; */
 }
 
 .footer-container{
@@ -442,7 +445,7 @@ body{
 .footer-element-wrapper{
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 400px;
 }
 
 .footer-navs li{
@@ -490,7 +493,7 @@ body{
 }
 
 .copyright-message p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .social-logos img{
